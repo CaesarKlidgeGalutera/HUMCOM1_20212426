@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Caesar Klidge C. Galutera" />
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Registration Form Galutera</title>
+</head>
+
+<body style="background-color: gray;">
+    <center>
+        <h1 style="font-family: Bahnschrift; color: white;">Sign up now!</h1>
+    </center>
+   
+    <p style="font-family: Bahnschrift; color: white;"> Fields marked (*) are required</p>
+    <Font face = "Bahnschrift"><Font color = "white">
+<form> 
+    <fieldset>
+        <legend>Your Details</legend>
+        <label for = "Name">
+            Name * <input type="text" size="50" max="50" id = "Name" name="Name" placeholder="Full name" required /></br>
+        </label>
+        <label for = "Email">
+            Email * <input required type="email" size="50" max="50" id = "Email" name="Email"placeholder="JuanDelaCruz@example.com"  /></br>
+        </label>
+        <label for = "Phone">
+            Phone *  <input type="number" id = "Phone" name="Phone" placeholder="Eleven digit number"  minlength="11" required /></br>
+        </label>
+    </fieldset>
+    </Font>
+   
+
+    <Font face = "Bahnschrift"><Font color = "white">
+    
+    <fieldset>
+        <legend>Delivery Address</legend>
+        
+        <label for = "Address_1">
+            Address 1 * <input type="text" size="50" max="25" id = "Address_1" name="Address_1" placeholder="House/Apt Number and Street" required /></br>
+        </label>
+        <label for = "District_Baranggay">
+            Distring/Baranggay * <input type="text" size="50" max="25" id = "District_Baranggay" name="District_Baranggay" placeholder="District/Baranggay" required/></br>
+        </label>
+
+        <label for ="City"> City * 
+        
+            <select id="City" required>
+                <option value="Baguio">Baguio</option>
+                <option value="Cauyan">Cauyan</option>
+                <option value="Cebu">Cebu City</option>
+                <option value="Davao">Davao City</option>
+                <option value="Ilagan">Ilagan</option>
+                <option value="Iloilo">Iloilo City</option>
+                <option value="Quezon">Quezon City</option>
+                <option value="Santaigo">Santiago</option>
+                <option value="Tugeugarao">Tugeugarao</option>
+                <option value="Vigan">Vigan</option>
+            </select>
+        </label>
+
+        <br>
+
+        
+        <label for ="Postal_code">
+            Postal Code * <input type="text" size="30" max="30" id = "Postal_code" name="Postal_code" placeholder="Postal code" minlength="4" required /></br>
+        </label>
+
+        <label for ="Province"> Province * 
+        
+            <select id="Province" required>
+                <option value="Baguio">Benguet</option>
+                <option value="Ilagan">Cagayan</option>
+                <option value="Tugeugarao">Cavite</option>
+                <option value="Cebu">Cebu</option>
+                <option value="Cauyan">Isabela</option>
+                <option value="Davao">Davao</option>
+                <option value="Iloilo">Ilocos Norte</option>
+                <option value="Santaigo">Iloilo</option>
+                <option value="Vigan">Laguna</option>
+                <option value="Quezon">Quezon Province</option>
+            </select>
+        </label>
+    </fieldset>
+    
+
+    <Font face = "Bahnschrift"><Font color = "white">
+  
+    <fieldset>
+        <legend>Membership Information</legend>
+        <label for = "user_Name"> 
+            Username * <input type="text" size="30" max="30" id = "user_Name" name="user_Name" placeholder="Atleast 8 alphanumeric character" minlength="8" required /></br>
+        <label for = "Password">
+            Password * <input type="text" size="30" max="30" id = "Password" name="Password" placeholder="Atleast 8 alphanumeric character"  minlength="8" required /></br>
+        
+        <label for ="Magazine_Subs"> Magazine Subscriptions</label> <br>
+        <input type="checkbox" name="Magazine_Subs" value="PCMagazine">PCMagazine<br>
+        <input type="checkbox" name="Magazine_Subs" value="Wired">Wired<br>
+        <input type="checkbox" name="Magazine_Subs" value="Computer World">Computer World<br>
+        <input type="checkbox" name="Magazine_Subs" value="I don't subscribe">I don't subscribe<br>
+        <input type="checkbox" name="Magazine_Subs" value="Other"> Other
+
+    </fieldset>
+    </Font>
+    
+    <Font face = "Bahnschrift"><Font color = "white">
+        
+    <button class = "Sign Up" >Sign Up</button>
+    </Font>
+</form>
+    
+</body>
+   
+</html>
