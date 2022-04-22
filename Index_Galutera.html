@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Caesar Klidge C. Galutera" />
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="FinalExam.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Monoton&family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="FinalExam_Galutera.css">
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="Index_Galutera.html"><img src="images/Final_logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="bi bi-x-lg" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">History</a></li>
+                    <li><a href="">Festivals</a></li>
+                    <li><a href="">Landmarks</a></li>
+                    <li><a href="">Location Map</a></li>
+                    <li><a href="">Gallery</a></li>
+                    <li><a href="">About the page creator</a></li>
+                    <li><a href="">Contact us</a></li>
+                </ul>
+            </div>
+            <i class="bi bi-list" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h3>Welcome to</h3>
+            <h1>Isabela</h1>
+            <p>The Queen Province of the North</p>
+            <a href="" class="hero-btn">Travel Now!</a>
+        </div>
+    </section>
+
+<!---Get to know more about our province-->
+<section class="GettoKnow">
+    <h1>Get to know more about our province!</h1>
+    <p>Click to explore more</p>
+
+    <div class="row">
+        <div class="know-col">
+            <h3>About</h3>
+            <p>Know about our province and our pride</p>
+        </div>
+
+        <div class="know-col">
+            <h3>History</h3>
+            <p>Know about the history of Isabela</p>
+        </div>
+
+        <div class="know-col">
+            <h3>Festivals</h3>
+            <p>Know about the festival of our province and its municipalities</p>
+        </div>
+    </div>
+</section>
+
+<!----JavaScript Toggle Menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>
