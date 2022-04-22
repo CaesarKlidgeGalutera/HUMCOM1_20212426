@@ -5,7 +5,7 @@
     grid-template-rows: 1fr;
     grid-template-areas: "topleft topright";
     grid-gap: 0.5rem;
-    height: 170px;
+    height: 120px;
 }
 
 #topleft{
@@ -28,7 +28,7 @@
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     background-color: rgb(69, 69, 69);
-    height: 350px
+    height: 250px
     
 }
 
@@ -42,7 +42,7 @@
     grid-template-rows: 1fr;
     grid-template-areas: "leftbox midbox rightbox";
     grid-gap: 0.5rem;
-    height: 250px
+    height: 200px
     
 }
 
@@ -70,7 +70,7 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     grid-template-areas: "leftbox1 leftbox2 rightbox1 rightbox2";
-    height: 130px;
+    height: 120px;
 }
 
 .leftbox1{
@@ -178,6 +178,3 @@
     }
 
 }
-
-
-
