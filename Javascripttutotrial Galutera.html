@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Caesar Klidge C. Galutera" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Javascript</title>
+</head>
+<body>
+    <script>
+        document.write("Hello, World!");
+        var myvariable;
+        myvarialble = 5;
+        var myvariable = 5
+        myvariable = true;
+        var myvariable = "fish";
+        //This is a comment
+        //Comments are not executed
+
+        var words = "This is";
+        var morewords = " a sentence";
+        var sentence = words = morewords;
+        document.write(sentence);
+
+        var num1 = 5;
+        var num2 = 3;
+        var total = num1 = num2;
+        var total = num1 / num2;
+        var total = num1 % num2;
+        var total = num1++;
+        var total = ++num1;
+        var total = --num1;
+        document.write(total);
+        //document.write(num1)
+
+        var alpha = "ABCDEFG";
+        var length = alpha.length;
+        document.write(length);
+
+        var result = alpha.substring(3, 5);
+        document.write(result);
+
+        var result = alpha.substring(0, 5);
+        document.write(result);
+
+        var a = new Array(7);
+        a[0] = "cat";
+        a[1] = "dog";
+        a[2] = 95;
+        a[6] = true;
+
+        document.write(a[1]);
+        document.write(a[0]);
+        document.write(a[6]);
+
+        var a = new Array("cat", "dog", 53, true);
+        document.write(a[1]);
+        
+        var a = ("dog", "cat", 3, 5, false);
+        document.write(a[3]);
+
+        function sayHello(){
+            document.write("Hello," + who);
+
+        }
+
+        var a = 7;
+        if (a > 10){
+            alert(a);
+        }
+
+        var a = 12;
+        if (a > 10){
+            alert(a);
+        }
+
+        var a = 12;
+        if (a >= 10){
+            alert(a);
+        }
+
+        var a = 12;
+        if (a <= 10){
+            alert(a);
+        }
+
+        var a = 12;
+        if (a == 10){
+            alert(a);
+        }
+
+        var a = 12;
+        if (a != 10){
+            alert(a);
+        }
+
+        var a = "Jake";
+        if (a == "Jake"){
+            alert(a);
+        } else {
+            alert("The condition was false");
+        }
+
+        for (i=0;i<5;i++){
+            document.write("THis is iteration " + i + "<br>");
+        }
+    </script>
+
+    <script>
+        sayHello();
+        document.write("<br>");
+        sayHello("Mary");
+    </script>
+</body>
+
+</html>
+
+
