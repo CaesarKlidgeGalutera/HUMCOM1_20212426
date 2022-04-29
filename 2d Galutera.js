@@ -1,0 +1,1 @@
+alert("Caesar Klidge C. Galutera \n BS Computer Science \n 1st Year \n HUMCOM-IAA2 \n Introduction to Javascript")
